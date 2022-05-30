@@ -1,0 +1,29 @@
+{
+    "name": "yaml",
+    "viewName": "Yaml",
+    "type": "executer",
+    "description": "Kaholo Plugin for Ansible",
+    "exposeRoute": false,
+    "execProgram": "node",
+    "imgUrl": "logo.png",
+    "main": "app.js",
+    "version": "0.1.0",
+    "category": ["core"],
+    "keywords": ["yaml", "yml"],
+    "methods": [
+      {
+        "name" : "parse",
+        "viewName" : "Parse yml file",
+        "params":[
+          {
+            "name": "filePath",
+            "viewName": "File Path",
+            "description": "Path to yml file.",
+            "placeholder": "/home/ubuntu/yamls/my_yaml.yml",
+            "type": "string",
+            "required": true
+          }
+        ]
+      }
+    ]
+  }
