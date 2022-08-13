@@ -1,25 +1,25 @@
 {
-    "name": "yaml",
-    "viewName": "Yaml",
+    "name": "json",
+    "viewName": "JSON",
     "type": "executer",
-    "description": "Kaholo Plugin for Ansible",
+    "description": "Gets JSON from File",
     "exposeRoute": false,
     "execProgram": "node",
     "imgUrl": "logo.png",
     "main": "app.js",
     "version": "0.1.0",
-    "category": ["core"],
-    "keywords": ["yaml", "yml"],
+    "category": ["Basic Tools"],
+    "keywords": ["json", "parse"],
     "methods": [
       {
         "name" : "parse",
-        "viewName" : "Parse yml file",
+        "viewName" : "Parse JSON file",
         "params":[
           {
             "name": "filePath",
             "viewName": "File Path",
-            "description": "Path to yml file.",
-            "placeholder": "/home/ubuntu/yamls/my_yaml.yml",
+            "description": "Path to JSON file.",
+            "placeholder": "testresuls/result123.json",
             "type": "string",
             "required": true
           }
