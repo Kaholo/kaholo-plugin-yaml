@@ -2,7 +2,7 @@
     "name": "json",
     "viewName": "JSON",
     "type": "executer",
-    "description": "Gets JSON from File",
+    "description": "Gets JSON data from a File",
     "exposeRoute": false,
     "execProgram": "node",
     "imgUrl": "logo.png",
@@ -13,13 +13,13 @@
     "methods": [
       {
         "name" : "parse",
-        "viewName" : "Parse JSON file",
+        "viewName" : "Parse JSON File",
         "params":[
           {
             "name": "filePath",
             "viewName": "File Path",
             "description": "Path to JSON file.",
-            "placeholder": "testresuls/result123.json",
+            "placeholder": "testresults/result123.json",
             "type": "string",
             "required": true
           }
